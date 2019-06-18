@@ -1,0 +1,19 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "Path": "C:\\Program Files\\MeCab\\bin;${env:UserProfile}\\Anaconda3;${env:UserProfile}\\Anaconda3\\Library\\mingw-w64\\bin;${env:UserProfile}\\Anaconda3\\Library\\usr\\bin;${env:UserProfile}\\Anaconda3\\Library\\bin;${env:UserProfile}\\Anaconda3\\Scripts;${env:UserProfile}\\Anaconda3\\bin;${env:UserProfile}\\Anaconda3\\condabin;"
+            },
+            "args": ["FAQ_List.txt"]
+        }
+    ]
+}
