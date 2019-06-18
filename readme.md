@@ -1,6 +1,6 @@
 ## 形態素
 
-### AnacondaとMeCabインストール
+### AnacondaとMeCabのインストール
 https://qiita.com/sta/items/6d29da0dc7069ffaae60
 
 ```mecabのパス通す
@@ -8,7 +8,7 @@ set "PATH=C:\Program Files\MeCab\bin;%PATH%"
 python -c "import os; print('\n'.join(os.environ['PATH'].split(';')))"
 ```
 
-### MeCab使う
+### MeCabを使う
 https://qiita.com/menon/items/2b5ad487a98882289567
 
 ```python
@@ -30,6 +30,14 @@ def mecab_list(text):
         node = node.next
     return word_class
 ```
+
+### NEologd辞書をインストール
+https://qiita.com/zincjp/items/c61c441426b9482b5a48
+
+か
+
+https://www.pytry3g.com/entry/MeCab-NEologd-Windows
+
 
 ### conda関連
 <https://qiita.com/Atupon0302/items/ee3303629ce0b2ae58d7>

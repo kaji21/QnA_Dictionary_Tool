@@ -1,6 +1,7 @@
 # Local Test Data / Result File
 *.txt
 *.csv
+*.tsv
 
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
